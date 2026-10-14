@@ -1,3 +1,1 @@
-## Learning GitHub Collaboration
-
-I am learning Git and GitHub locally.
+I am learning Git and GitHub using local and remote changes.
