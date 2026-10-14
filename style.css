@@ -1,0 +1,83 @@
+
+/* Page design */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #e0e7ff);
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+/* Main container */
+.container {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile section */
+.profile {
+    background-color: #2563eb;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.profile h1 {
+    margin-bottom: 10px;
+}
+
+.profile-text {
+    color: white;
+}
+
+/* Headings */
+h2 {
+    color: #2563eb;
+    margin-top: 25px;
+}
+
+/* Paragraphs */
+p {
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Skills section */
+.skills {
+    margin: 20px 0;
+}
+
+.skill {
+    display: inline-block;
+    background-color: #dbeafe;
+    color: #1d4ed8;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* Button design */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Message style */
+#message {
+    color: #15803d;
+    font-weight: bold;
+}

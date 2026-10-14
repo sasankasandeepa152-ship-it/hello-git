@@ -6,63 +6,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My First Website</title>
+    <title>My Personal Website</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f4f8;
-            text-align: center;
-            padding: 50px;
-        }
-
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            max-width: 500px;
-            margin: auto;
-        }
-
-        h1 {
-            color: #2563eb;
-        }
-
-        p {
-            color: #444;
-            line-height: 1.6;
-        }
-
-        button {
-            background-color: #2563eb;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #1d4ed8;
-        }
-    </style>
+    <!-- Connect CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="container">
 
-        <h1>Hello, World!</h1>
+        <div class="profile">
+            <h1>Hello, I'm Sasanka!</h1>
+            <p class="profile-text">Beginner Web Developer</p>
+        </div>
 
-        <h2>Welcome to My First Website</h2>
+        <h2>About Me</h2>
 
-        <p>My name is Sasanka.</p>
+        <p>
+            Welcome to my personal website.
+            I am learning how to create websites
+            using HTML, CSS, and JavaScript.
+        </p>
 
-        <p>I am learning HTML, CSS, Git and GitHub.</p>
+        <h2>My Skills</h2>
 
-        <p>This is my first practice project.</p>
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Git</span>
+            <span class="skill">GitHub</span>
+        </div>
 
-        <button onclick="showMessage()">Click Me</button>
+        <h2>My First Project</h2>
+
+        <p>
+            This is my personal practice project.
+            I am improving my web development skills
+            step by step.
+        </p>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
 
         <p id="message"></p>
 
@@ -71,7 +58,7 @@
     <script>
         function showMessage() {
             document.getElementById("message").textContent =
-                "Congratulations! Your website is working.";
+                "Thank you for visiting my website!";
         }
     </script>
 
